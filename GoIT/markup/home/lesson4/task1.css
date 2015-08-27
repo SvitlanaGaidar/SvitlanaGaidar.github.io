@@ -1,19 +1,21 @@
-.container{
-   background-color:mediumpurple;
+div{
+    background-color:#9370db;
 }
-.inline{
+ul{
     width:900px;
     margin: auto;
 }
-.inline1 {
+li{
     display: inline-block;
     padding:5px 10px;
 }
-.inline1:hover{
-     background-color: lightgray;
- }
+li:hover {
+    background-color:#dcdcdc;
+}
+a:hover {
+    color:#a9a9a9;
+}
 a{
     text-decoration: none;
-    font: 15px impact;
-    color: white;
+    color:#ffffff;
 }
