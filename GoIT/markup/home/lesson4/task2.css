@@ -1,0 +1,26 @@
+div{
+    background-color:#9370db;
+}
+ul{
+    width:900px;
+    margin: auto;
+}
+li{
+    display: inline-block;
+    padding:5px 10px;
+}
+li:hover {
+    background-color:#dcdcdc;
+}
+a:hover {
+    color:#a9a9a9;
+}
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.more{
+    float: right;
+    margin: -30px 50px 0 0;
+    width: 100px;
+}
