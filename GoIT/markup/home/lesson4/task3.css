@@ -1,0 +1,32 @@
+div{
+    background-color: #eeeeee;
+    width: 100%;
+    font-family: arial;
+}
+ul{
+    list-style-type: none;
+    margin: auto;
+
+}
+li{
+    display: inline-block;
+    margin: 5px;
+    border: solid 2px #d3d3d3;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+a{
+    text-decoration: none;
+    color: #a64dff;
+}
+.words{
+    border:none;
+}
+li:hover{
+    background-color:#a64dff;
+    border: solid 2px #4b0082;
+}
+li:hover a{
+    color: #ffffff;
+}
