@@ -1,0 +1,81 @@
+body, div, h1, img{
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS, sans-serif;
+}
+.testimonies{
+    background: url(img/task2background.png);
+    margin: auto 0;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px 0;
+}
+.orange{
+    color: #ee8129;
+}
+.blue{
+    color: #3170a8;
+}
+.center{
+    width: 80%;
+    margin: auto;
+}
+.personal{
+    width: 45%;
+    height: 99px;
+    display: inline-block;
+    margin: 0 20px 40px 20px;
+    box-sizing: border-box;
+}
+.female{
+    left: 0;
+}
+.male{
+    right: 0;
+}
+.img{
+    float: left;
+    width: 20%;
+}
+.c_arrow{
+    width: 8%;
+    float: left;
+}
+.arrow{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 15px solid;
+    border-color:transparent #ffffff transparent transparent ;
+    margin: 30px 0 auto;
+    float: right;
+}
+.text {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 72%;
+    height: 99px;
+    padding: 10px;
+    display: inline-block;
+    float: left;
+}
+.name, .customer{
+    font-size: 14px;
+    font-style: italic;
+    color: #2b6ea7;
+}
+.name:before{
+    content: "- ";
+}
+.customer{
+    float: right;
+}
+.dotted{
+    border-top: dotted #777777;
+}
+.speech{
+    color: #a0a0a0;
+    font-size: 14px;
+}
