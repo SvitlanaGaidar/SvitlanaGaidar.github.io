@@ -1,3 +1,7 @@
+body, div, ul, li, a{
+    margin: 0;
+    padding: 0;
+}
 div{
     background-color: #1ca8ff;
     position: relative;
@@ -13,6 +17,7 @@ ul>li {
 }
 li:hover {
     background-color:#ededed;
+    box-shadow: 0 0 2px #ededed;
 }
 li:hover a{
     color:#a1a2b3;
@@ -26,7 +31,7 @@ a{
     display: inline;
     visibility: hidden;
     position: absolute;
-    margin-top: 25px;
+    margin-top: 24px;
     left: 0;
     width: 100%;
 }
@@ -37,8 +42,7 @@ li:hover ul {
     display: inline;
     visibility: visible;
     background-color: #ededed;
-    border-bottom: 1px solid #a1a2b3;
-
+    box-shadow: 0 0 2px #a1a2b3;
 }
 .list2 li:hover a {
     color: #ffffff;

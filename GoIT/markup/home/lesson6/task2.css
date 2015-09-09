@@ -19,11 +19,11 @@ h1{
     color: #3170a8;
 }
 .center{
-    width: 80%;
+    width: 900px;
     margin: auto;
 }
 .personal{
-    width: 45%;
+    width: 400px;
     height: 99px;
     display: inline-block;
     margin: 0 20px 40px 20px;
@@ -40,7 +40,7 @@ h1{
     width: 20%;
 }
 .c_arrow{
-    width: 8%;
+    width: 10%;
     float: left;
 }
 .arrow{
@@ -55,7 +55,7 @@ h1{
 .text {
     box-sizing: border-box;
     background-color: #ffffff;
-    width: 72%;
+    width: 70%;
     height: 99px;
     padding: 10px;
     display: inline-block;

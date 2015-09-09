@@ -1,3 +1,7 @@
+body, div, ul, li, a{
+    margin: 0;
+    padding: 0;
+}
 div{
     background-color:#9370db;
 }
@@ -11,8 +15,9 @@ li{
 }
 li:hover {
     background-color:#dcdcdc;
+    box-shadow: 0 0 2px #dcdcdc;
 }
-a:hover {
+li:hover a{
     color:#a9a9a9;
 }
 a{
@@ -21,6 +26,6 @@ a{
 }
 .more{
     float: right;
-    margin: -30px 50px 0 0;
+    margin: -28px 50px 0 0;
     width: 100px;
 }
