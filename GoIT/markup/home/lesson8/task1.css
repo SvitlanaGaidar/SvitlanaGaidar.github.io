@@ -1,0 +1,55 @@
+body, form, input, label, div{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+form{
+    background-color: #FFCC66;
+    width: 70%;
+    min-width: 300px;
+    margin: 20px auto;
+    padding: 4px;
+    height: 52px;
+    position: relative;
+
+}
+form:after{
+    content: "";
+    border-width: 30px 0 30px 20px;
+    border-style: solid;
+    border-color: transparent transparent transparent #FFCC66 ;
+    position: absolute;
+    right: 0;
+    left: 100%;
+    margin-top: -55px;
+}
+.text_submit{
+    width: calc(100% - 8px);
+}
+.text{
+    height: 23px;
+    display: inline-block;
+    width: calc(100% - 75px);
+}
+.submit{
+    padding: 3px 8px;
+    font-size: 14px;
+    display: inline-block;
+    background-color: #F1F1F1;
+    border-radius: 4px;
+}
+.submit:active{
+    color: #a0a0a0;
+}
+div.checkbox{
+    font-size: 12px;
+    padding: 4px 0;
+}
+input.checkbutton{
+    margin: 0 3px;
+    cursor:pointer;
+    vertical-align: middle;
+}
+
